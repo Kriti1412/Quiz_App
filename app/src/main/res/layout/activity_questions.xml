@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.quiz_app.questions">
+
+    <TextView
+        android:id="@+id/ques"
+        style="@style/Questions"
+        android:layout_marginTop="24dp"
+        android:text="Entomology is the science that studies? " />
+
+    <Button
+        android:id="@+id/opt1"
+        style="@style/Options"
+        android:layout_marginTop="24dp"
+        android:onClick="check"
+        android:text="Behavior of human beings" />
+
+    <Button
+        android:id="@+id/opt2"
+        style="@style/Options"
+        android:layout_marginTop="16dp"
+        android:onClick="check"
+        android:text="The origin and history of technical and scientific terms" />
+
+    <Button
+        android:id="@+id/opt3"
+        style="@style/Options"
+        android:layout_marginTop="16dp"
+        android:onClick="check"
+        android:text="Insects" />
+
+    <Button
+        android:id="@+id/opt4"
+        style="@style/Options"
+        android:layout_marginTop="16dp"
+        android:onClick="check"
+        android:text="The formation of rocks" />
+
+</LinearLayout>
